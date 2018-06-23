@@ -8,9 +8,9 @@ Rails.application.config.content_security_policy do |p|
   p.style_src   :self, :https, :unsafe_inline
 
 
-  # p.img_src :self, 'power.itp.ac.cn', :https
-  p.img_src 'power.itp.ac.cn'
-  # p.img_src :none
+  p.img_src :self, 'power.itp.ac.cn', :https
+  # p.img_src 'power.itp.ac.cn'
+  #p.img_src :none
   # p.img_src :self
 
   # Specify URI for violation reports
